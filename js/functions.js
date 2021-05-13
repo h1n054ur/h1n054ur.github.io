@@ -47,7 +47,7 @@ Amplitude.init({
       "name": "Visions (Boehm Remix)",
       "artist": "Cheat Codes",
       "album": "Mix 1",
-      "url": "https://drive.google.com/u/2/uc?id=1LtUI-yYyUhmGgWLNF4PEkm2BNNlPZtMm&export=download",
+      "url": "https://j.mp/3xXdT7f",
       "cover_art_url": "https://i.ibb.co/5RCk38k/image.png"
     },
     {
