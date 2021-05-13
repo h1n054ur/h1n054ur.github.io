@@ -1,0 +1,1002 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>h1n0</title>
+    <!-- Include font -->
+    <link href="https://fonts.googleapis.com/css?family=Lato:400,400i" rel="stylesheet">
+    <link rel="stylesheet" href="css/all.css" crossorigin="anonymous">
+    <!-- animate -->
+    <link rel="stylesheet" href="css/animate.min.css">
+    <!-- stylesheet -->
+    <link href="css/css.css" rel="stylesheet">
+    <link rel="stylesheet" href="css/index.css">
+    <!-- MusicPlayer Style Sheet -->
+    <link rel="stylesheet" type="text/css" href="css/app.css" />
+
+    <!-- jquery js -->
+    <script src="js/jquery-3.3.1.min.js" crossorigin="anonymous"></script>
+    <!-- Include Amplitude JS -->
+    <script type="text/javascript" src="node_modules/amplitudejs/dist/amplitude.js"></script>
+
+    <!-- icon -->
+    <link rel="icon" href="47852084" type="image/png">
+</head>
+
+<body>
+    <div id="loading">
+        <div id="spinner"></div>
+    </div>
+    <div id="particles-js"></div>
+    <div id="box">
+        <div class="box1 onlywide animated bounceOutLeft" style="animation-delay:1.7s;"></div>
+        <div class="box2 onlywide animated bounceOutLeft" style="animation-delay:1.8s;"></div>
+        <div class="box2 onlywide animated bounceOutLeft" style="animation-delay:1.9s;"></div>
+        <div class="box2 animated bounceOutRight" style="animation-delay:1.9s;"></div>
+        <div class="box2 onlywide animated bounceOutRight" style="animation-delay:1.8s;"></div>
+        <div class="box2 onlywide animated bounceOutRight" style="animation-delay:1.7s;"></div>
+    </div>
+    <a id="music" onclick="showmusic()" class="animated fadeIn" style="animation-delay:2.2s;">music</a>
+    <a id="about" onclick="showabout()" class="animated fadeIn" style="animation-delay:2.2s;">about</a>
+    <a id="work" onclick="showwork()" class="animated fadeIn" style="animation-delay:2.2s;">achievements</a>
+    <a id="contact" onclick="showcontact()" class="animated fadeIn" style="animation-delay:2.2s;">contact</a>
+    <div id="middle" class="animated slideInDown" style="animation-delay:2.0s;">
+        <a href="https://t.me/h1n054ur" target="_blank" rel="noopener noreferrer"><img
+                src="https://i.ibb.co/BqnPC2b/Webp-net-resizeimage.png" alt="Webp-net-resizeimage" width="100"
+                height="80"></a>
+        <h1 style="text-decoration: none;">h1n0</h1>
+        <h2>Now is better than never.</h2>
+        <div id="menu">
+            <a onclick="showmusic()" style="text-decoration: none;">music</a>
+            <a onclick="showabout()" style="text-decoration: none;">about</a>
+            <a onclick="showwork()" style="text-decoration: none;">achievements</a>
+            <a onclick="showcontact()" style="text-decoration: none;">contact</a>
+        </div>
+        <table>
+            <tr>
+                <td class="animated zoomIn" style="animation-delay:2.2s;"><a href="https://www.t.me/h1n054ur"
+                        target="_blank" rel="noopener noreferrer" class="social"><i class="fab fa-telegram"></i></a>
+                </td>
+                <td class="animated zoomIn" style="animation-delay:2.4s;"><a href="https://discord.gg/tChEnDZy"
+                        target="_blank" rel="noopener noreferrer" class="social"><i class="fab fa-discord"></i></a></td>
+                <td class="animated zoomIn" style="animation-delay:2.6s;"><a href="https://github.com/h1n054ur"
+                        target="_blank" rel="noopener noreferrer" class="social"><i class="fab fa-github"></i></a></td>
+                <td class="animated zoomIn" style="animation-delay:2.8s;"><a
+                        href="https://www.linkedin.com/in/hani-umer-1874b6209/" target="_blank"
+                        rel="noopener noreferrer" class="social"><i class="fab fa-linkedin"></i></a></td>
+            </tr>
+        </table>
+
+    </div>
+    <div id="work_container" class="container">
+        <div onclick="closework()"><i class="fas fa-angle-right"></i></div>
+        <h1 class="animated zoomIn" style="text-decoration: none;">Achievements</h1>
+        <section>
+            <h2 class="animated zoomIn">Certifications</h2>
+            <table>
+                <tr>
+                    <td class="animated zoomIn" style="animation-delay:1.4s;"><a href="https://bit.ly/3nVOc2g"
+                            target="_blank" rel="noopener noreferrer"><img src="https://bit.ly/3vP6yVt" alt="m365mdaa"
+                                width=80 height=80></a>
+                    <td class="animated zoomIn" style="animation-delay:1.6s;"><a href="https://red.ht/3vQVoQg"
+                            target="_blank" rel="noopener noreferrer"><img src="https://bit.ly/3nZHWXf" alt="rhcsa"
+                                width=100 height=80></a>
+                    <td class="animated zoomIn" style="animation-delay:2.2s;"><a href="https://bit.ly/33qHsjy"
+                            target="_blank" rel="noopener noreferrer"><img src="https://bit.ly/3h9heKw" alt="security+"
+                                width=80 height=80></a>
+                    <td class="animated zoomIn" style="animation-delay:2.4s;"><a href="https://bit.ly/3o5x5ve"
+                            target="_blank" rel="noopener noreferrer"><img src="https://bit.ly/3bb00ZD" alt="A+"
+                                width=80 height=80></a>
+
+                </tr>
+            </table>
+
+            <table>
+                <tr>
+                    <td class="animated zoomIn" style="animation-delay:1.8s;"><a href="https://bit.ly/3eV04xm"
+                            target="_blank" rel="noopener noreferrer"><img src="https://bit.ly/33DkFkV" alt="ccna"
+                                width=80 height=80></a>
+                    <td class="animated zoomIn" style="animation-delay:2.0s;"><a href="https://bit.ly/3uw8i5I"
+                            target="_blank" rel="noopener noreferrer"><img src="https://bit.ly/3uy9wgT"
+                                alt="itil4foundation" width=80 height=80></a>
+                </tr>
+            </table>
+        </section>
+        <section>
+            <h2 class="animated zoomIn">Projects</h2>
+            <table>
+                <tr>
+                    <td class="animated zoomIn" style="animation-delay:2.8s;">
+                        <a href="https://github.com/fachizel/BHDUP" target="_blank" rel="noopener noreferrer">
+                            <img src="https://i.ibb.co/Y3v5NNS/bhdup-logo.png" alt="bhdup-logo" width=100 height=100>
+                        </a>
+                    </td>
+                </tr>
+            </table>
+        </section>
+    </div>
+    <div id="about_container" class="container">
+        <div onclick="closeabout()"><i class="fas fa-angle-left"></i></div>
+        <h1 style="text-decoration: none;">About Me</h1>
+        <section>
+            <h2><a>Hani Umer</a></h2>
+            <p>
+                A passionate self-taught developer from Australia.
+            </p>
+            <p>
+                <a class="communication"><i class="fas fa-envelope-square"></i></a>
+                <a href="mailto:umer.hani@protonmail.com" target="_blank" rel="noopener noreferrer"> -
+                    umer.hani@protonmail.com</a>
+            </p>
+        </section>
+        <section>
+            <h2>Skills</h2>
+            <p>
+                i do everything <i class="fas fa-smile-wink"></i>
+            </p>
+        </section>
+    </div>
+    <div id="contact_container" class="container">
+        <div onclick="closecontact()"><i class="fas fa-angle-down"></i></div>
+        <h1 style="text-decoration: none;">Contact Me</h1>
+        <section>
+            <h2>Use My Bot To Send Me An Instant Message!</h2>
+            <form id="form">
+                <input type="text" name="name" id="name" placeholder="Name" required>
+                <input type="email" name="email" id="email" placeholder="Email" required><br>
+                <textarea placeholder="Your Message" id="message" name="message" required rows="5"></textarea><br>
+                <button class="btn_one" type="submit">Send</button>
+                <span class="response" style="display: none;">Thanks for contacting me!</span>
+            </form>
+        </section>
+    </div>
+
+    <div id="music_container" class="container">
+        <div onclick="closemusic()"><i class="fas fa-angle-up"></i></div>
+        <!-- music player code start -->
+
+
+        <div id="flat-black-player-container">
+            <div id="list-screen" class="slide-in-top">
+              <div id="list-screen-header" class="hide-playlist">
+                <img id="up-arrow" src="img/up.svg"/>
+                Hide Playlist
+              </div>
+
+              <div id="list">
+                <div class="song amplitude-song-container amplitude-play-pause" data-amplitude-song-index="0">
+                  <span class="song-number-now-playing">
+                    <span class="number">1</span>
+                    <img class="now-playing" src="img/now-playing.svg"/>
+                  </span>
+
+                  <div class="song-meta-container">
+                    <span class="song-name" data-amplitude-song-info="name" data-amplitude-song-index="0"></span>
+                    <span class="song-artist-album"><span data-amplitude-song-info="artist" data-amplitude-song-index="0"></span> - <span data-amplitude-song-info="album" data-amplitude-song-index="0"></span></span>
+                  </div>
+
+                  <span class="song-duration">
+                    3:35
+                  <span>
+                </div>
+                <div class="song amplitude-song-container amplitude-play-pause" data-amplitude-song-index="1">
+                  <span class="song-number-now-playing">
+                    <span class="number">2</span>
+                    <img class="now-playing" src="img/now-playing.svg"/>
+                  </span>
+
+                  <div class="song-meta-container">
+                    <span class="song-name" data-amplitude-song-info="name" data-amplitude-song-index="1"></span>
+                    <span class="song-artist-album"><span data-amplitude-song-info="artist" data-amplitude-song-index="1"></span> - <span data-amplitude-song-info="album" data-amplitude-song-index="1"></span></span>
+                  </div>
+
+                  <span class="song-duration">
+                    3:44
+                  <span>
+                </div>
+                <div class="song amplitude-song-container amplitude-play-pause" data-amplitude-song-index="2">
+                  <span class="song-number-now-playing">
+                    <span class="number">3</span>
+                    <img class="now-playing" src="img/now-playing.svg"/>
+                  </span>
+
+                  <div class="song-meta-container">
+                    <span class="song-name" data-amplitude-song-info="name" data-amplitude-song-index="2"></span>
+                    <span class="song-artist-album"><span data-amplitude-song-info="artist" data-amplitude-song-index="2"></span> - <span data-amplitude-song-info="album" data-amplitude-song-index="2"></span></span>
+                  </div>
+
+                  <span class="song-duration">
+                    2:37
+                  <span>
+                </div>
+                <div class="song amplitude-song-container amplitude-play-pause" data-amplitude-song-index="3">
+                  <span class="song-number-now-playing">
+                    <span class="number">4</span>
+                    <img class="now-playing" src="img/now-playing.svg"/>
+                  </span>
+
+                  <div class="song-meta-container">
+                    <span class="song-name" data-amplitude-song-info="name" data-amplitude-song-index="3"></span>
+                    <span class="song-artist-album"><span data-amplitude-song-info="artist" data-amplitude-song-index="3"></span> - <span data-amplitude-song-info="album" data-amplitude-song-index="3"></span></span>
+                  </div>
+
+                  <span class="song-duration">
+                    3:16
+                  <span>
+                </div>
+                <div class="song amplitude-song-container amplitude-play-pause" data-amplitude-song-index="4">
+                  <span class="song-number-now-playing">
+                    <span class="number">5</span>
+                    <img class="now-playing" src="img/now-playing.svg"/>
+                  </span>
+
+                  <div class="song-meta-container">
+                    <span class="song-name" data-amplitude-song-info="name" data-amplitude-song-index="4"></span>
+                    <span class="song-artist-album"><span data-amplitude-song-info="artist" data-amplitude-song-index="4"></span> - <span data-amplitude-song-info="album" data-amplitude-song-index="4"></span></span>
+                  </div>
+
+                  <span class="song-duration">
+                    3:46
+                  <span>
+                </div>
+                <div class="song amplitude-song-container amplitude-play-pause" data-amplitude-song-index="5">
+                  <span class="song-number-now-playing">
+                    <span class="number">6</span>
+                    <img class="now-playing" src="img/now-playing.svg"/>
+                  </span>
+
+                  <div class="song-meta-container">
+                    <span class="song-name" data-amplitude-song-info="name" data-amplitude-song-index="5"></span>
+                    <span class="song-artist-album"><span data-amplitude-song-info="artist" data-amplitude-song-index="5"></span> - <span data-amplitude-song-info="album" data-amplitude-song-index="5"></span></span>
+                  </div>
+
+                  <span class="song-duration">
+                    2:32
+                  <span>
+                </div>
+                <div class="song amplitude-song-container amplitude-play-pause" data-amplitude-song-index="6">
+                  <span class="song-number-now-playing">
+                    <span class="number">7</span>
+                    <img class="now-playing" src="img/now-playing.svg"/>
+                  </span>
+
+                  <div class="song-meta-container">
+                    <span class="song-name" data-amplitude-song-info="name" data-amplitude-song-index="6"></span>
+                    <span class="song-artist-album"><span data-amplitude-song-info="artist" data-amplitude-song-index="6"></span> - <span data-amplitude-song-info="album" data-amplitude-song-index="6"></span></span>
+                  </div>
+
+                  <span class="song-duration">
+                    4:01
+                  <span>
+                </div>
+                <div class="song amplitude-song-container amplitude-play-pause" data-amplitude-song-index="7">
+                  <span class="song-number-now-playing">
+                    <span class="number">8</span>
+                    <img class="now-playing" src="img/now-playing.svg"/>
+                  </span>
+
+                  <div class="song-meta-container">
+                    <span class="song-name" data-amplitude-song-info="name" data-amplitude-song-index="7"></span>
+                    <span class="song-artist-album"><span data-amplitude-song-info="artist" data-amplitude-song-index="7"></span> - <span data-amplitude-song-info="album" data-amplitude-song-index="7"></span></span>
+                  </div>
+
+                  <span class="song-duration">
+                    2:48
+                  <span>
+                </div>
+                <div class="song amplitude-song-container amplitude-play-pause" data-amplitude-song-index="8">
+                  <span class="song-number-now-playing">
+                    <span class="number">9</span>
+                    <img class="now-playing" src="img/now-playing.svg"/>
+                  </span>
+
+                  <div class="song-meta-container">
+                    <span class="song-name" data-amplitude-song-info="name" data-amplitude-song-index="8"></span>
+                    <span class="song-artist-album"><span data-amplitude-song-info="artist" data-amplitude-song-index="8"></span> - <span data-amplitude-song-info="album" data-amplitude-song-index="8"></span></span>
+                  </div>
+
+                  <span class="song-duration">
+                    4:38
+                  <span>
+                </div>
+                <div class="song amplitude-song-container amplitude-play-pause" data-amplitude-song-index="9">
+                  <span class="song-number-now-playing">
+                    <span class="number">10</span>
+                    <img class="now-playing" src="img/now-playing.svg"/>
+                  </span>
+
+                  <div class="song-meta-container">
+                    <span class="song-name" data-amplitude-song-info="name" data-amplitude-song-index="9"></span>
+                    <span class="song-artist-album"><span data-amplitude-song-info="artist" data-amplitude-song-index="9"></span> - <span data-amplitude-song-info="album" data-amplitude-song-index="9"></span></span>
+                  </div>
+
+                  <span class="song-duration">
+                    2:51
+                  <span>
+                </div>
+                <div class="song amplitude-song-container amplitude-play-pause" data-amplitude-song-index="10">
+                  <span class="song-number-now-playing">
+                    <span class="number">11</span>
+                    <img class="now-playing" src="img/now-playing.svg"/>
+                  </span>
+
+                  <div class="song-meta-container">
+                    <span class="song-name" data-amplitude-song-info="name" data-amplitude-song-index="10"></span>
+                    <span class="song-artist-album"><span data-amplitude-song-info="artist" data-amplitude-song-index="10"></span> - <span data-amplitude-song-info="album" data-amplitude-song-index="10"></span></span>
+                  </div>
+
+                  <span class="song-duration">
+                    3:07
+                  <span>
+                </div>
+                <div class="song amplitude-song-container amplitude-play-pause" data-amplitude-song-index="11">
+                  <span class="song-number-now-playing">
+                    <span class="number">12</span>
+                    <img class="now-playing" src="img/now-playing.svg"/>
+                  </span>
+
+                  <div class="song-meta-container">
+                    <span class="song-name" data-amplitude-song-info="name" data-amplitude-song-index="11"></span>
+                    <span class="song-artist-album"><span data-amplitude-song-info="artist" data-amplitude-song-index="11"></span> - <span data-amplitude-song-info="album" data-amplitude-song-index="11"></span></span>
+                  </div>
+
+                  <span class="song-duration">
+                    3:08
+                  <span>
+                </div>
+                <div class="song amplitude-song-container amplitude-play-pause" data-amplitude-song-index="12">
+                  <span class="song-number-now-playing">
+                    <span class="number">13</span>
+                    <img class="now-playing" src="img/now-playing.svg"/>
+                  </span>
+
+                  <div class="song-meta-container">
+                    <span class="song-name" data-amplitude-song-info="name" data-amplitude-song-index="12"></span>
+                    <span class="song-artist-album"><span data-amplitude-song-info="artist" data-amplitude-song-index="12"></span> - <span data-amplitude-song-info="album" data-amplitude-song-index="12"></span></span>
+                  </div>
+
+                  <span class="song-duration">
+                    2:51
+                  <span>
+                </div>
+                <div class="song amplitude-song-container amplitude-play-pause" data-amplitude-song-index="13">
+                  <span class="song-number-now-playing">
+                    <span class="number">14</span>
+                    <img class="now-playing" src="img/now-playing.svg"/>
+                  </span>
+
+                  <div class="song-meta-container">
+                    <span class="song-name" data-amplitude-song-info="name" data-amplitude-song-index="13"></span>
+                    <span class="song-artist-album"><span data-amplitude-song-info="artist" data-amplitude-song-index="13"></span> - <span data-amplitude-song-info="album" data-amplitude-song-index="13"></span></span>
+                  </div>
+
+                  <span class="song-duration">
+                    2:54
+                  <span>
+                </div>
+                <div class="song amplitude-song-container amplitude-play-pause" data-amplitude-song-index="14">
+                  <span class="song-number-now-playing">
+                    <span class="number">15</span>
+                    <img class="now-playing" src="img/now-playing.svg"/>
+                  </span>
+
+                  <div class="song-meta-container">
+                    <span class="song-name" data-amplitude-song-info="name" data-amplitude-song-index="14"></span>
+                    <span class="song-artist-album"><span data-amplitude-song-info="artist" data-amplitude-song-index="14"></span> - <span data-amplitude-song-info="album" data-amplitude-song-index="14"></span></span>
+                  </div>
+
+                  <span class="song-duration">
+                    2:57
+                  <span>
+                </div>
+                <div class="song amplitude-song-container amplitude-play-pause" data-amplitude-song-index="15">
+                  <span class="song-number-now-playing">
+                    <span class="number">16</span>
+                    <img class="now-playing" src="img/now-playing.svg"/>
+                  </span>
+
+                  <div class="song-meta-container">
+                    <span class="song-name" data-amplitude-song-info="name" data-amplitude-song-index="15"></span>
+                    <span class="song-artist-album"><span data-amplitude-song-info="artist" data-amplitude-song-index="15"></span> - <span data-amplitude-song-info="album" data-amplitude-song-index="15"></span></span>
+                  </div>
+
+                  <span class="song-duration">
+                    2:54
+                  <span>
+                </div>
+                <div class="song amplitude-song-container amplitude-play-pause" data-amplitude-song-index="16">
+                  <span class="song-number-now-playing">
+                    <span class="number">17</span>
+                    <img class="now-playing" src="img/now-playing.svg"/>
+                  </span>
+
+                  <div class="song-meta-container">
+                    <span class="song-name" data-amplitude-song-info="name" data-amplitude-song-index="16"></span>
+                    <span class="song-artist-album"><span data-amplitude-song-info="artist" data-amplitude-song-index="16"></span> - <span data-amplitude-song-info="album" data-amplitude-song-index="16"></span></span>
+                  </div>
+
+                  <span class="song-duration">
+                    3:03
+                  <span>
+                </div>
+                <div class="song amplitude-song-container amplitude-play-pause" data-amplitude-song-index="17">
+                  <span class="song-number-now-playing">
+                    <span class="number">18</span>
+                    <img class="now-playing" src="img/now-playing.svg"/>
+                  </span>
+
+                  <div class="song-meta-container">
+                    <span class="song-name" data-amplitude-song-info="name" data-amplitude-song-index="17"></span>
+                    <span class="song-artist-album"><span data-amplitude-song-info="artist" data-amplitude-song-index="17"></span> - <span data-amplitude-song-info="album" data-amplitude-song-index="17"></span></span>
+                  </div>
+
+                  <span class="song-duration">
+                    3:28
+                  <span>
+                </div>
+                <div class="song amplitude-song-container amplitude-play-pause" data-amplitude-song-index="18">
+                  <span class="song-number-now-playing">
+                    <span class="number">19</span>
+                    <img class="now-playing" src="img/now-playing.svg"/>
+                  </span>
+
+                  <div class="song-meta-container">
+                    <span class="song-name" data-amplitude-song-info="name" data-amplitude-song-index="18"></span>
+                    <span class="song-artist-album"><span data-amplitude-song-info="artist" data-amplitude-song-index="18"></span> - <span data-amplitude-song-info="album" data-amplitude-song-index="18"></span></span>
+                  </div>
+
+                  <span class="song-duration">
+                    3:09
+                  <span>
+                </div>
+                <div class="song amplitude-song-container amplitude-play-pause" data-amplitude-song-index="19">
+                  <span class="song-number-now-playing">
+                    <span class="number">20</span>
+                    <img class="now-playing" src="img/now-playing.svg"/>
+                  </span>
+
+                  <div class="song-meta-container">
+                    <span class="song-name" data-amplitude-song-info="name" data-amplitude-song-index="19"></span>
+                    <span class="song-artist-album"><span data-amplitude-song-info="artist" data-amplitude-song-index="19"></span> - <span data-amplitude-song-info="album" data-amplitude-song-index="19"></span></span>
+                  </div>
+
+                  <span class="song-duration">
+                    3:13
+                  <span>
+                </div>
+                <div class="song amplitude-song-container amplitude-play-pause" data-amplitude-song-index="20">
+                  <span class="song-number-now-playing">
+                    <span class="number">21</span>
+                    <img class="now-playing" src="img/now-playing.svg"/>
+                  </span>
+
+                  <div class="song-meta-container">
+                    <span class="song-name" data-amplitude-song-info="name" data-amplitude-song-index="20"></span>
+                    <span class="song-artist-album"><span data-amplitude-song-info="artist" data-amplitude-song-index="20"></span> - <span data-amplitude-song-info="album" data-amplitude-song-index="20"></span></span>
+                  </div>
+
+                  <span class="song-duration">
+                    3:22
+                  <span>
+                </div>
+                <div class="song amplitude-song-container amplitude-play-pause" data-amplitude-song-index="21">
+                  <span class="song-number-now-playing">
+                    <span class="number">22</span>
+                    <img class="now-playing" src="img/now-playing.svg"/>
+                  </span>
+
+                  <div class="song-meta-container">
+                    <span class="song-name" data-amplitude-song-info="name" data-amplitude-song-index="21"></span>
+                    <span class="song-artist-album"><span data-amplitude-song-info="artist" data-amplitude-song-index="21"></span> - <span data-amplitude-song-info="album" data-amplitude-song-index="21"></span></span>
+                  </div>
+
+                  <span class="song-duration">
+                    3:14
+                  <span>
+                </div>
+                <div class="song amplitude-song-container amplitude-play-pause" data-amplitude-song-index="22">
+                  <span class="song-number-now-playing">
+                    <span class="number">23</span>
+                    <img class="now-playing" src="img/now-playing.svg"/>
+                  </span>
+
+                  <div class="song-meta-container">
+                    <span class="song-name" data-amplitude-song-info="name" data-amplitude-song-index="22"></span>
+                    <span class="song-artist-album"><span data-amplitude-song-info="artist" data-amplitude-song-index="22"></span> - <span data-amplitude-song-info="album" data-amplitude-song-index="22"></span></span>
+                  </div>
+
+                  <span class="song-duration">
+                    2:43
+                  <span>
+                </div>
+                <div class="song amplitude-song-container amplitude-play-pause" data-amplitude-song-index="23">
+                  <span class="song-number-now-playing">
+                    <span class="number">24</span>
+                    <img class="now-playing" src="img/now-playing.svg"/>
+                  </span>
+
+                  <div class="song-meta-container">
+                    <span class="song-name" data-amplitude-song-info="name" data-amplitude-song-index="23"></span>
+                    <span class="song-artist-album"><span data-amplitude-song-info="artist" data-amplitude-song-index="23"></span> - <span data-amplitude-song-info="album" data-amplitude-song-index="23"></span></span>
+                  </div>
+
+                  <span class="song-duration">
+                    2:52
+                  <span>
+                </div>
+                <div class="song amplitude-song-container amplitude-play-pause" data-amplitude-song-index="24">
+                  <span class="song-number-now-playing">
+                    <span class="number">25</span>
+                    <img class="now-playing" src="img/now-playing.svg"/>
+                  </span>
+
+                  <div class="song-meta-container">
+                    <span class="song-name" data-amplitude-song-info="name" data-amplitude-song-index="24"></span>
+                    <span class="song-artist-album"><span data-amplitude-song-info="artist" data-amplitude-song-index="24"></span> - <span data-amplitude-song-info="album" data-amplitude-song-index="24"></span></span>
+                  </div>
+
+                  <span class="song-duration">
+                    3:04
+                  <span>
+                </div>
+                <div class="song amplitude-song-container amplitude-play-pause" data-amplitude-song-index="25">
+                  <span class="song-number-now-playing">
+                    <span class="number">26</span>
+                    <img class="now-playing" src="img/now-playing.svg"/>
+                  </span>
+
+                  <div class="song-meta-container">
+                    <span class="song-name" data-amplitude-song-info="name" data-amplitude-song-index="25"></span>
+                    <span class="song-artist-album"><span data-amplitude-song-info="artist" data-amplitude-song-index="25"></span> - <span data-amplitude-song-info="album" data-amplitude-song-index="25"></span></span>
+                  </div>
+
+                  <span class="song-duration">
+                    3:11
+                  <span>
+                </div>
+                <div class="song amplitude-song-container amplitude-play-pause" data-amplitude-song-index="26">
+                  <span class="song-number-now-playing">
+                    <span class="number">27</span>
+                    <img class="now-playing" src="img/now-playing.svg"/>
+                  </span>
+
+                  <div class="song-meta-container">
+                    <span class="song-name" data-amplitude-song-info="name" data-amplitude-song-index="26"></span>
+                    <span class="song-artist-album"><span data-amplitude-song-info="artist" data-amplitude-song-index="26"></span> - <span data-amplitude-song-info="album" data-amplitude-song-index="26"></span></span>
+                  </div>
+
+                  <span class="song-duration">
+                    6:44
+                  <span>
+                </div>
+                <div class="song amplitude-song-container amplitude-play-pause" data-amplitude-song-index="27">
+                  <span class="song-number-now-playing">
+                    <span class="number">28</span>
+                    <img class="now-playing" src="img/now-playing.svg"/>
+                  </span>
+
+                  <div class="song-meta-container">
+                    <span class="song-name" data-amplitude-song-info="name" data-amplitude-song-index="27"></span>
+                    <span class="song-artist-album"><span data-amplitude-song-info="artist" data-amplitude-song-index="27"></span> - <span data-amplitude-song-info="album" data-amplitude-song-index="27"></span></span>
+                  </div>
+
+                  <span class="song-duration">
+                    2:43
+                  <span>
+                </div>
+                <div class="song amplitude-song-container amplitude-play-pause" data-amplitude-song-index="28">
+                  <span class="song-number-now-playing">
+                    <span class="number">29</span>
+                    <img class="now-playing" src="img/now-playing.svg"/>
+                  </span>
+
+                  <div class="song-meta-container">
+                    <span class="song-name" data-amplitude-song-info="name" data-amplitude-song-index="28"></span>
+                    <span class="song-artist-album"><span data-amplitude-song-info="artist" data-amplitude-song-index="28"></span> - <span data-amplitude-song-info="album" data-amplitude-song-index="28"></span></span>
+                  </div>
+
+                  <span class="song-duration">
+                    3:11
+                  <span>
+                </div>
+                <div class="song amplitude-song-container amplitude-play-pause" data-amplitude-song-index="29">
+                  <span class="song-number-now-playing">
+                    <span class="number">30</span>
+                    <img class="now-playing" src="img/now-playing.svg"/>
+                  </span>
+
+                  <div class="song-meta-container">
+                    <span class="song-name" data-amplitude-song-info="name" data-amplitude-song-index="29"></span>
+                    <span class="song-artist-album"><span data-amplitude-song-info="artist" data-amplitude-song-index="29"></span> - <span data-amplitude-song-info="album" data-amplitude-song-index="29"></span></span>
+                  </div>
+
+                  <span class="song-duration">
+                    3:14
+                  <span>
+                </div>
+                <div class="song amplitude-song-container amplitude-play-pause" data-amplitude-song-index="30">
+                  <span class="song-number-now-playing">
+                    <span class="number">31</span>
+                    <img class="now-playing" src="img/now-playing.svg"/>
+                  </span>
+
+                  <div class="song-meta-container">
+                    <span class="song-name" data-amplitude-song-info="name" data-amplitude-song-index="30"></span>
+                    <span class="song-artist-album"><span data-amplitude-song-info="artist" data-amplitude-song-index="30"></span> - <span data-amplitude-song-info="album" data-amplitude-song-index="30"></span></span>
+                  </div>
+
+                  <span class="song-duration">
+                    3:04
+                  <span>
+                </div>
+                <div class="song amplitude-song-container amplitude-play-pause" data-amplitude-song-index="31">
+                  <span class="song-number-now-playing">
+                    <span class="number">32</span>
+                    <img class="now-playing" src="img/now-playing.svg"/>
+                  </span>
+
+                  <div class="song-meta-container">
+                    <span class="song-name" data-amplitude-song-info="name" data-amplitude-song-index="31"></span>
+                    <span class="song-artist-album"><span data-amplitude-song-info="artist" data-amplitude-song-index="31"></span> - <span data-amplitude-song-info="album" data-amplitude-song-index="31"></span></span>
+                  </div>
+
+                  <span class="song-duration">
+                    2:48
+                  <span>
+                </div>
+                <div class="song amplitude-song-container amplitude-play-pause" data-amplitude-song-index="32">
+                  <span class="song-number-now-playing">
+                    <span class="number">33</span>
+                    <img class="now-playing" src="img/now-playing.svg"/>
+                  </span>
+
+                  <div class="song-meta-container">
+                    <span class="song-name" data-amplitude-song-info="name" data-amplitude-song-index="32"></span>
+                    <span class="song-artist-album"><span data-amplitude-song-info="artist" data-amplitude-song-index="32"></span> - <span data-amplitude-song-info="album" data-amplitude-song-index="32"></span></span>
+                  </div>
+
+                  <span class="song-duration">
+                    3:28
+                  <span>
+                </div>
+                <div class="song amplitude-song-container amplitude-play-pause" data-amplitude-song-index="33">
+                  <span class="song-number-now-playing">
+                    <span class="number">34</span>
+                    <img class="now-playing" src="img/now-playing.svg"/>
+                  </span>
+
+                  <div class="song-meta-container">
+                    <span class="song-name" data-amplitude-song-info="name" data-amplitude-song-index="33"></span>
+                    <span class="song-artist-album"><span data-amplitude-song-info="artist" data-amplitude-song-index="33"></span> - <span data-amplitude-song-info="album" data-amplitude-song-index="33"></span></span>
+                  </div>
+
+                  <span class="song-duration">
+                    2:48
+                  <span>
+                </div>
+                <div class="song amplitude-song-container amplitude-play-pause" data-amplitude-song-index="34">
+                  <span class="song-number-now-playing">
+                    <span class="number">35</span>
+                    <img class="now-playing" src="img/now-playing.svg"/>
+                  </span>
+
+                  <div class="song-meta-container">
+                    <span class="song-name" data-amplitude-song-info="name" data-amplitude-song-index="34"></span>
+                    <span class="song-artist-album"><span data-amplitude-song-info="artist" data-amplitude-song-index="34"></span> - <span data-amplitude-song-info="album" data-amplitude-song-index="34"></span></span>
+                  </div>
+
+                  <span class="song-duration">
+                    3:13
+                  <span>
+                </div>
+                <div class="song amplitude-song-container amplitude-play-pause" data-amplitude-song-index="35">
+                  <span class="song-number-now-playing">
+                    <span class="number">36</span>
+                    <img class="now-playing" src="img/now-playing.svg"/>
+                  </span>
+
+                  <div class="song-meta-container">
+                    <span class="song-name" data-amplitude-song-info="name" data-amplitude-song-index="35"></span>
+                    <span class="song-artist-album"><span data-amplitude-song-info="artist" data-amplitude-song-index="35"></span> - <span data-amplitude-song-info="album" data-amplitude-song-index="35"></span></span>
+                  </div>
+
+                  <span class="song-duration">
+                    3:16
+                  <span>
+                </div>
+                <div class="song amplitude-song-container amplitude-play-pause" data-amplitude-song-index="36">
+                  <span class="song-number-now-playing">
+                    <span class="number">37</span>
+                    <img class="now-playing" src="img/now-playing.svg"/>
+                  </span>
+
+                  <div class="song-meta-container">
+                    <span class="song-name" data-amplitude-song-info="name" data-amplitude-song-index="36"></span>
+                    <span class="song-artist-album"><span data-amplitude-song-info="artist" data-amplitude-song-index="36"></span> - <span data-amplitude-song-info="album" data-amplitude-song-index="36"></span></span>
+                  </div>
+
+                  <span class="song-duration">
+                    3:32
+                  <span>
+                </div>
+                <div class="song amplitude-song-container amplitude-play-pause" data-amplitude-song-index="37">
+                  <span class="song-number-now-playing">
+                    <span class="number">38</span>
+                    <img class="now-playing" src="img/now-playing.svg"/>
+                  </span>
+
+                  <div class="song-meta-container">
+                    <span class="song-name" data-amplitude-song-info="name" data-amplitude-song-index="37"></span>
+                    <span class="song-artist-album"><span data-amplitude-song-info="artist" data-amplitude-song-index="37"></span> - <span data-amplitude-song-info="album" data-amplitude-song-index="37"></span></span>
+                  </div>
+
+                  <span class="song-duration">
+                    3:32
+                  <span>
+                </div>
+                <div class="song amplitude-song-container amplitude-play-pause" data-amplitude-song-index="38">
+                  <span class="song-number-now-playing">
+                    <span class="number">39</span>
+                    <img class="now-playing" src="img/now-playing.svg"/>
+                  </span>
+
+                  <div class="song-meta-container">
+                    <span class="song-name" data-amplitude-song-info="name" data-amplitude-song-index="38"></span>
+                    <span class="song-artist-album"><span data-amplitude-song-info="artist" data-amplitude-song-index="38"></span> - <span data-amplitude-song-info="album" data-amplitude-song-index="38"></span></span>
+                  </div>
+
+                  <span class="song-duration">
+                    4:38
+                  <span>
+                </div>
+                <div class="song amplitude-song-container amplitude-play-pause" data-amplitude-song-index="39">
+                  <span class="song-number-now-playing">
+                    <span class="number">40</span>
+                    <img class="now-playing" src="img/now-playing.svg"/>
+                  </span>
+
+                  <div class="song-meta-container">
+                    <span class="song-name" data-amplitude-song-info="name" data-amplitude-song-index="39"></span>
+                    <span class="song-artist-album"><span data-amplitude-song-info="artist" data-amplitude-song-index="39"></span> - <span data-amplitude-song-info="album" data-amplitude-song-index="39"></span></span>
+                  </div>
+
+                  <span class="song-duration">
+                    2:52
+                  <span>
+                </div>
+                <div class="song amplitude-song-container amplitude-play-pause" data-amplitude-song-index="40">
+                  <span class="song-number-now-playing">
+                    <span class="number">41</span>
+                    <img class="now-playing" src="img/now-playing.svg"/>
+                  </span>
+
+                  <div class="song-meta-container">
+                    <span class="song-name" data-amplitude-song-info="name" data-amplitude-song-index="40"></span>
+                    <span class="song-artist-album"><span data-amplitude-song-info="artist" data-amplitude-song-index="40"></span> - <span data-amplitude-song-info="album" data-amplitude-song-index="40"></span></span>
+                  </div>
+
+                  <span class="song-duration">
+                    5:40
+                  <span>
+                </div>
+                <div class="song amplitude-song-container amplitude-play-pause" data-amplitude-song-index="41">
+                  <span class="song-number-now-playing">
+                    <span class="number">42</span>
+                    <img class="now-playing" src="img/now-playing.svg"/>
+                  </span>
+
+                  <div class="song-meta-container">
+                    <span class="song-name" data-amplitude-song-info="name" data-amplitude-song-index="41"></span>
+                    <span class="song-artist-album"><span data-amplitude-song-info="artist" data-amplitude-song-index="41"></span> - <span data-amplitude-song-info="album" data-amplitude-song-index="41"></span></span>
+                  </div>
+
+                  <span class="song-duration">
+                    3:07
+                  <span>
+                </div>
+                <div class="song amplitude-song-container amplitude-play-pause" data-amplitude-song-index="42">
+                  <span class="song-number-now-playing">
+                    <span class="number">43</span>
+                    <img class="now-playing" src="img/now-playing.svg"/>
+                  </span>
+
+                  <div class="song-meta-container">
+                    <span class="song-name" data-amplitude-song-info="name" data-amplitude-song-index="42"></span>
+                    <span class="song-artist-album"><span data-amplitude-song-info="artist" data-amplitude-song-index="42"></span> - <span data-amplitude-song-info="album" data-amplitude-song-index="42"></span></span>
+                  </div>
+
+                  <span class="song-duration">
+                    3:54
+                  <span>
+                </div>
+                <div class="song amplitude-song-container amplitude-play-pause" data-amplitude-song-index="43">
+                  <span class="song-number-now-playing">
+                    <span class="number">44</span>
+                    <img class="now-playing" src="img/now-playing.svg"/>
+                  </span>
+
+                  <div class="song-meta-container">
+                    <span class="song-name" data-amplitude-song-info="name" data-amplitude-song-index="43"></span>
+                    <span class="song-artist-album"><span data-amplitude-song-info="artist" data-amplitude-song-index="43"></span> - <span data-amplitude-song-info="album" data-amplitude-song-index="43"></span></span>
+                  </div>
+
+                  <span class="song-duration">
+                    3:01
+                  <span>
+                </div>
+                <div class="song amplitude-song-container amplitude-play-pause" data-amplitude-song-index="44">
+                  <span class="song-number-now-playing">
+                    <span class="number">45</span>
+                    <img class="now-playing" src="img/now-playing.svg"/>
+                  </span>
+
+                  <div class="song-meta-container">
+                    <span class="song-name" data-amplitude-song-info="name" data-amplitude-song-index="44"></span>
+                    <span class="song-artist-album"><span data-amplitude-song-info="artist" data-amplitude-song-index="44"></span> - <span data-amplitude-song-info="album" data-amplitude-song-index="44"></span></span>
+                  </div>
+
+                  <span class="song-duration">
+                    3:09
+                  <span>
+                </div>
+                <div class="song amplitude-song-container amplitude-play-pause" data-amplitude-song-index="45">
+                  <span class="song-number-now-playing">
+                    <span class="number">46</span>
+                    <img class="now-playing" src="img/now-playing.svg"/>
+                  </span>
+
+                  <div class="song-meta-container">
+                    <span class="song-name" data-amplitude-song-info="name" data-amplitude-song-index="45"></span>
+                    <span class="song-artist-album"><span data-amplitude-song-info="artist" data-amplitude-song-index="45"></span> - <span data-amplitude-song-info="album" data-amplitude-song-index="45"></span></span>
+                  </div>
+
+                  <span class="song-duration">
+                    3:00
+                  <span>
+                </div>
+                <div class="song amplitude-song-container amplitude-play-pause" data-amplitude-song-index="46">
+                  <span class="song-number-now-playing">
+                    <span class="number">47</span>
+                    <img class="now-playing" src="img/now-playing.svg"/>
+                  </span>
+
+                  <div class="song-meta-container">
+                    <span class="song-name" data-amplitude-song-info="name" data-amplitude-song-index="46"></span>
+                    <span class="song-artist-album"><span data-amplitude-song-info="artist" data-amplitude-song-index="46"></span> - <span data-amplitude-song-info="album" data-amplitude-song-index="46"></span></span>
+                  </div>
+
+                  <span class="song-duration">
+                    2:38
+                  <span>
+                </div>
+                <div class="song amplitude-song-container amplitude-play-pause" data-amplitude-song-index="47">
+                  <span class="song-number-now-playing">
+                    <span class="number">48</span>
+                    <img class="now-playing" src="img/now-playing.svg"/>
+                  </span>
+
+                  <div class="song-meta-container">
+                    <span class="song-name" data-amplitude-song-info="name" data-amplitude-song-index="47"></span>
+                    <span class="song-artist-album"><span data-amplitude-song-info="artist" data-amplitude-song-index="47"></span> - <span data-amplitude-song-info="album" data-amplitude-song-index="47"></span></span>
+                  </div>
+
+                  <span class="song-duration">
+                    3:29
+                  <span>
+                </div>
+                <div class="song amplitude-song-container amplitude-play-pause" data-amplitude-song-index="48">
+                  <span class="song-number-now-playing">
+                    <span class="number">49</span>
+                    <img class="now-playing" src="img/now-playing.svg"/>
+                  </span>
+
+                  <div class="song-meta-container">
+                    <span class="song-name" data-amplitude-song-info="name" data-amplitude-song-index="48"></span>
+                    <span class="song-artist-album"><span data-amplitude-song-info="artist" data-amplitude-song-index="48"></span> - <span data-amplitude-song-info="album" data-amplitude-song-index="48"></span></span>
+                  </div>
+
+                  <span class="song-duration">
+                    3:18
+                  <span>
+                </div>
+                <div class="song amplitude-song-container amplitude-play-pause" data-amplitude-song-index="49">
+                  <span class="song-number-now-playing">
+                    <span class="number">50</span>
+                    <img class="now-playing" src="img/now-playing.svg"/>
+                  </span>
+
+                  <div class="song-meta-container">
+                    <span class="song-name" data-amplitude-song-info="name" data-amplitude-song-index="49"></span>
+                    <span class="song-artist-album"><span data-amplitude-song-info="artist" data-amplitude-song-index="49"></span> - <span data-amplitude-song-info="album" data-amplitude-song-index="49"></span></span>
+                  </div>
+
+                  <span class="song-duration">
+                    2:53
+                  <span>
+                </div>
+              </div>
+
+              <div id="list-screen-footer">
+                <div id="list-screen-meta-container">
+                  <span data-amplitude-song-info="name" class="song-name"></span>
+
+                  <div class="song-artist-album">
+                    <span data-amplitude-song-info="artist"></span>
+                  </div>
+                </div>
+                <div class="list-controls">
+                  <div class="list-previous amplitude-prev"></div>
+                  <div class="list-play-pause amplitude-play-pause"></div>
+                  <div class="list-next amplitude-next"></div>
+                </div>
+              </div>
+            </div>
+            <div id="player-screen">
+              <div class="player-header down-header">
+                <img id="down" src="img/down.svg"/>
+                Show Playlist
+              </div>
+              <div id="player-top">
+                <img data-amplitude-song-info="cover_art_url"/>
+              </div>
+              <div id="player-progress-bar-container">
+                <progress id="song-played-progress" class="amplitude-song-played-progress"></progress>
+                <progress id="song-buffered-progress" class="amplitude-buffered-progress" value="0"></progress>
+              </div>
+              <div id="player-middle">
+                <div id="time-container">
+                  <span class="amplitude-current-time time-container"></span>
+                  <span class="amplitude-duration-time time-container"></span>
+                </div>
+                <div id="meta-container">
+                  <span data-amplitude-song-info="name" class="song-name"></span>
+
+                  <div class="song-artist-album">
+                    <span data-amplitude-song-info="artist"></span>
+                  </div>
+                </div>
+              </div>
+              <div id="player-bottom">
+                <div id="control-container">
+
+                  <div id="shuffle-container">
+                    <div class="amplitude-shuffle amplitude-shuffle-off" id="shuffle"></div>
+                  </div>
+
+                  <div id="prev-container">
+                    <div class="amplitude-prev" id="previous"></div>
+                  </div>
+
+                  <div id="play-pause-container">
+                    <div class="amplitude-play-pause" id="play-pause"></div>
+                  </div>
+
+                  <div id="next-container">
+                    <div class="amplitude-next" id="next"></div>
+                  </div>
+
+                  <div id="repeat-container">
+                    <div class="amplitude-repeat" id="repeat"></div>
+                  </div>
+
+                </div>
+
+                <div id="volume-container">
+                  <img src="img/volume.svg"/><input type="range" class="amplitude-volume-slider" step=".1"/>
+                </div>
+              </div>
+            </div>
+          </div>
+
+
+        <!-- music player code end -->
+    </div>
+    <script src="js/index.js"></script>
+    <script src="js/particles.js"></script>
+    <script src="js/app.js"></script>
+    <script type="text/javascript" src="js/functions.js"></script>
+</body>
+</html>
