@@ -123,7 +123,7 @@ Amplitude.init({
     {
         "name": "About Life",
         "artist": "Adon",
-        "album": "Mix 1",
+        "album": "Added on 15/05/21",
         "url": "https://bit.ly/33JNsnF",
         "cover_art_url": "https://bit.ly/3o0TdGP"
     },
