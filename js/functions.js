@@ -44,123 +44,123 @@ Amplitude.init({
   },
   "songs": [
     {
-      "name": "Visions (Boehm Remix)",
-      "artist": "Cheat Codes",
-      "album": "Mix 1",
-      "url": "https://j.mp/3xXdT7f",
-      "cover_art_url": "https://i.ibb.co/5RCk38k/image.png"
+        "name": "Visions (Boehm Remix)",
+        "artist": "Cheat Codes",
+        "album": "Added on 15/05/21",
+        "url": "https://j.mp/3xXdT7f",
+        "cover_art_url": "https://j.mp/3vVfFnD"
     },
     {
-      "name": "Into My Dream (ft. Louise Mambell)",
-      "artist": "3 Monkeyzz",
-      "album": "Mix 1",
-      "url": "https://drive.google.com/u/2/uc?id=1WT-E-68gAp072kj_5T6fkYbAyCwxPnhj&export=download",
-      "cover_art_url": "https://bit.ly/2Q5ybum"
+        "name": "Into My Dream",
+        "artist": "3 Monkeyzz Feat. Louise Mambell",
+        "album": "Added on 15/05/21",
+        "url": "https://j.mp/3xWbvxE",
+        "cover_art_url": "https://j.mp/3evTyOP"
     },
     {
-      "name": "Can't Forget You",
-      "artist": "22 Bullets",
-      "album": "Mix 1",
-      "url": "https://drive.google.com/u/2/uc?id=1RfLGsBCDo6akJtVOMi_GNkkbyPj9Ud3r&export=download",
-      "cover_art_url": "https://bit.ly/2Q0AmiG"
+        "name": "Can't Forget You",
+        "artist": "22Bullets",
+        "album": "Added on 15/05/21",
+        "url": "https://j.mp/3ttJ3zT",
+        "cover_art_url": "https://j.mp/3tDlmVI"
     },
     {
-      "name": "Easy Love",
-      "artist": "Dunisco",
-      "album": "Mix 1",
-      "url": "https://drive.google.com/u/2/uc?id=1SlDDd2zcpPAh7_kf1_RIoDhbaS_3aj8v&export=download",
-      "cover_art_url": "https://bit.ly/3f1OZe9"
+        "name": "Easy Love (Extended Mix)",
+        "artist": "Dunisco",
+        "album": "Added on 15/05/21",
+        "url": "https://j.mp/2R6ed32",
+        "cover_art_url": "https://j.mp/3uze86v"
     },
     {
-      "name": "What If",
-      "artist": "Adam Friedman",
-      "album": "Mix 1",
-      "url": "https://drive.google.com/u/2/uc?id=1S2OWnS0blzvxLsCYFcQL5RX2P-mkbwt_&export=download",
-      "cover_art_url": "https://bit.ly/3f1iXPy"
+        "name": "What If",
+        "artist": "Adam Friedman",
+        "album": "Added on 15/05/21",
+        "url": "https://j.mp/3o2vRAM",
+        "cover_art_url": "https://j.mp/2RGdhSK"
     },
     {
-      "name": "Forever (feat. Kid Travis)",
-      "artist": "Adam Turley",
-      "album": "Mix 1",
-      "url": "https://drive.google.com/u/2/uc?id=1fQ0LwTBDsJDTUabdv1TDx2phxZdazz95&export=download",
-      "cover_art_url": "https://bit.ly/3f7XXq6"
+        "name": "Forever (feat. Kid Travis)",
+        "artist": "Adam Turley",
+        "album": "Added on 15/05/21",
+        "url": "https://bit.ly/2RWaNQk",
+        "cover_art_url": "https://bit.ly/3f7XXq6"
     },
     {
-      "name": "Anjo",
-      "artist": "Addal",
-      "album": "Mix 1",
-      "url": "https://drive.google.com/u/2/uc?id=1VitgwKCzYwML_uvq7031UUswRfpQCMwj&export=download",
-      "cover_art_url": "https://bit.ly/33oIXyS"
+        "name": "Anjo",
+        "artist": "Addal",
+        "album": "Added on 15/05/21",
+        "url": "https://j.mp/3vVLCfG",
+        "cover_art_url": "https://j.mp/3f4fAqZ"
     },
     {
-      "name": "Real Love (feat. Stevie Appleton)",
-      "artist": "Addal",
-      "album": "Mix 1",
-      "url": "https://drive.google.com/u/2/uc?id=1XknydqjjOwT1m9rH17OYa4nVUGW8Qub_&export=download",
-      "cover_art_url": "https://bit.ly/3f2u7mV"
+        "name": "Real Love",
+        "artist": "Addal Feat. Stevie Appleton",
+        "album": "Added on 15/05/21",
+        "url": "https://j.mp/3hjnTBV",
+        "cover_art_url": "https://j.mp/3f6iqvE"
     },
     {
-      "name": "High (Club Mix)",
-      "artist": "ADDAL VS MIDA FT KIFI",
-      "album": "Mix 1",
-      "url": "https://drive.google.com/u/2/uc?id=1GsEeBl0-i3T7tCK_3EZ4qRCkkA_OCoAD&export=download",
-      "cover_art_url": "https://bit.ly/2QXjCtm"
+        "name": "High (Club Mix)",
+        "artist": "ADDAL VS MIDA FT KIFI",
+        "album": "Added on 15/05/21",
+        "url": "https://bit.ly/3w7UhM5",
+        "cover_art_url": "https://bit.ly/2QXjCtm"
     },
     {
-      "name": "Be Yours",
-      "artist": "Addy Ace & Keylo",
-      "album": "Mix 1",
-      "url": "https://drive.google.com/u/2/uc?id=1EBNafV1aO4VfXKafFLolJLLHp9kKyFrj&export=download",
-      "cover_art_url": "https://bit.ly/3hdMYOv"
+        "name": "Be Yours",
+        "artist": "Addy Ace & Keylo",
+        "album": "Added on 15/05/21",
+        "url": "https://j.mp/3tAtmXF",
+        "cover_art_url": "https://j.mp/3uzs2W5"
     },
     {
-      "name": "View ft. Drew Schueler",
-      "artist": "Addy Ace & Vic Roz",
-      "album": "Mix 1",
-      "url": "https://drive.google.com/u/2/uc?id=1NsJMbI_rrZ4hjBFygLlsctO50CDR67b2&export=download",
-      "cover_art_url": "https://bit.ly/3uyAOUv"
+        "name": "View",
+        "artist": "Addy Ace & Vic Roz Feat. Drew Schueler",
+        "album": "Added on 15/05/21",
+        "url": "https://j.mp/33BGr8h",
+        "cover_art_url": "https://j.mp/2RIaOap"
     },
     {
-      "name": "About Life",
-      "artist": "Adon",
-      "album": "Mix 1",
-      "url": "https://drive.google.com/u/2/uc?id=1cr-cVSjmt9YrUsOmVqN93CPqGxesu_D3&export=download",
-      "cover_art_url": "https://bit.ly/3o0TdGP"
+        "name": "About Life",
+        "artist": "Adon",
+        "album": "Mix 1",
+        "url": "https://bit.ly/33JNsnF",
+        "cover_art_url": "https://bit.ly/3o0TdGP"
     },
     {
-      "name": "Castle In The Sky (feat. Emilia Sonate)",
-      "artist": "Adon",
-      "album": "Mix 1",
-      "url": "https://drive.google.com/u/2/uc?id=1VuEwU5TDRnDOAS2_lPLny9k5xRdfeUR7&export=download",
-      "cover_art_url": "https://bit.ly/3vY4jzr"
+        "name": "Castle in the Sky",
+        "artist": "Adon & Emilia Sonate",
+        "album": "Added on 15/05/21",
+        "url": "https://j.mp/2RGvobv",
+        "cover_art_url": "https://j.mp/3uz9zJv"
     },
     {
-      "name": "Love Again",
-      "artist": "Adon",
-      "album": "Mix 1",
-      "url": "https://drive.google.com/u/2/uc?id=1YSspggdL6gPD3pExHhNsl7v7iDlr3Fxj&export=download",
-      "cover_art_url": "https://bit.ly/3nYO1TU"
+        "name": "Love Again",
+        "artist": "Adon",
+        "album": "Added on 15/05/21",
+        "url": "https://j.mp/2Q2B5jm",
+        "cover_art_url": "https://j.mp/3tFxohy"
     },
     {
-      "name": "Waterfalls",
-      "artist": "Adon",
-      "album": "Mix 1",
-      "url": "https://drive.google.com/u/2/uc?id=14pA0HKAleHI3IMk_Hv1UyWmNeifjqp58&export=download",
-      "cover_art_url": "https://bit.ly/3bbTBNN"
+        "name": "Waterfalls",
+        "artist": "Adon",
+        "album": "Added on 15/05/21",
+        "url": "https://j.mp/3heopRH",
+        "cover_art_url": "https://j.mp/2RGffT8"
     },
     {
-      "name": "Simple Love",
-      "artist": "Adon, Nicolas Haelg, Sam Halabi",
-      "album": "Mix 1",
-      "url": "https://drive.google.com/u/2/uc?id=1jnyKMt9WKH5NPohie0Zmdf1z_b2dtprd&export=download",
-      "cover_art_url": "https://bit.ly/3tvKTA4"
+        "name": "Simple Love",
+        "artist": "Adon, Nicolas Haelg & Sam Halabi",
+        "album": "Added on 15/05/21",
+        "url": "https://j.mp/3ew42NZ",
+        "cover_art_url": "https://j.mp/3o6sRUa"
     },
     {
-    "name": "Slow Down",
-    "artist": "Aérotique",
-    "album": "Mix 1",
-    "url": "https://drive.google.com/u/2/uc?id=1NBl6Fw-jDoBtRPrFxMtZMm9CezhYR-Vp&export=download",
-    "cover_art_url": "https://bit.ly/3xWTjnB"
+        "name": "Slow Down (Glaceo Remix)",
+        "artist": "Aerotique",
+        "album": "Added on 15/05/21",
+        "url": "https://j.mp/3ew3WG7",
+        "cover_art_url": "https://j.mp/33BVDSR"
     },
     {
       "name": "Back To Life",
