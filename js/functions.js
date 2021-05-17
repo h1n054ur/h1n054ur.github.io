@@ -177,11 +177,11 @@ Amplitude.init({
         "cover_art_url": "https://j.mp/3txzlfJ"
     },
     {
-      "name": "Ain't You",
-      "artist": "Aexcit",
-      "album": "Mix 1",
-      "url": "https://drive.google.com/u/2/uc?id=1nsatC2szoX0QnHTOA-NKYk3Qmddku1w4&export=download",
-      "cover_art_url": "https://bit.ly/3tyAOm1"
+        "name": "Ain't You",
+        "artist": "Aexcit",
+        "album": "Album",
+        "url": "https://j.mp/2RGuJXi",
+        "cover_art_url": "https://j.mp/3o1rqq1"
     },
     {
       "name": "Just A Bit",
