@@ -170,11 +170,11 @@ Amplitude.init({
         "cover_art_url": "https://j.mp/2Q8yVPo"
     },
     {
-      "name": "Not Coming Home",
-      "artist": "Aérotique & Glaceo",
-      "album": "Mix 1",
-      "url": "https://drive.google.com/u/2/uc?id=1u_Qeuy9xw5d246nejY2zgHzN8EU4acAY&export=download",
-      "cover_art_url": "https://bit.ly/3evABvs"
+        "name": "Not Coming Home",
+        "artist": "Aérotique & Glaceo",
+        "album": "Album",
+        "url": "https://j.mp/3vZfaJn",
+        "cover_art_url": "https://j.mp/3txzlfJ"
     },
     {
       "name": "Ain't You",
