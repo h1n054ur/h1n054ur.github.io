@@ -163,11 +163,11 @@ Amplitude.init({
         "cover_art_url": "https://j.mp/33BVDSR"
     },
     {
-      "name": "Back To Life",
-      "artist": "Aérotique & Glaceo",
-      "album": "Mix 1",
-      "url": "https://drive.google.com/u/2/uc?id=1SlA9Uq5F_STNGLgjUvPlADsXsDTvrSjK&export=download",
-      "cover_art_url": "https://bit.ly/3bcQwNq"
+        "name": "Back To Life",
+        "artist": "Aérotique & Glaceo",
+        "album": "Album",
+        "url": "https://j.mp/3be2oif",
+        "cover_art_url": "https://j.mp/2Q8yVPo"
     },
     {
       "name": "Not Coming Home",
