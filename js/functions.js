@@ -165,58 +165,58 @@ Amplitude.init({
     {
         "name": "Back To Life",
         "artist": "Aérotique & Glaceo",
-        "album": "Album",
+        "album": "Added on 17/05/21",
         "url": "https://j.mp/3be2oif",
         "cover_art_url": "https://j.mp/2Q8yVPo"
     },
     {
         "name": "Not Coming Home",
         "artist": "Aérotique & Glaceo",
-        "album": "Album",
+        "album": "Added on 17/05/21",
         "url": "https://j.mp/3vZfaJn",
         "cover_art_url": "https://j.mp/3txzlfJ"
     },
     {
         "name": "Ain't You",
         "artist": "Aexcit",
-        "album": "Album",
+        "album": "Added on 17/05/21",
         "url": "https://j.mp/2RGuJXi",
         "cover_art_url": "https://j.mp/3o1rqq1"
     },
     {
-      "name": "Just A Bit",
-      "artist": "Aexcit",
-      "album": "Mix 1",
-      "url": "https://drive.google.com/u/2/uc?id=1cijEt-3LDFk26cd4iDo0kXiQopK-2BZV&export=download",
-      "cover_art_url": "https://bit.ly/3xZQ1jg"
+        "name": "Just A Bit",
+        "artist": "Aexcit",
+        "album": "Added on 19/05/21",
+        "url": "https://j.mp/3hbdIzm",
+        "cover_art_url": "https://j.mp/3uBF5Gy"
     },
     {
-      "name": "Without You",
-      "artist": "Aexcit",
-      "album": "Mix 1",
-      "url": "https://drive.google.com/u/2/uc?id=1_5pU9QhswKa3aCfVtcnUUeCxoIImvuUT&export=download",
-      "cover_art_url": "https://bit.ly/2RAGDSD"
+        "name": "Without You",
+        "artist": "Aexcit",
+        "album": "Added on 19/05/21",
+        "url": "https://j.mp/3uBiQ3x",
+        "cover_art_url": "https://j.mp/33wPwzw"
     },
     {
-      "name": "Sweet Dreams",
-      "artist": "Aexcit & INFINITY",
-      "album": "Mix 1",
-      "url": "https://drive.google.com/u/2/uc?id=14L0kaY-hqPV00uAGA63SwnabbhnBgsGE&export=download",
-      "cover_art_url": "https://bit.ly/3evAHmO"
+        "name": "Sweet Dreams",
+        "artist": "Aexcit & Infinity",
+        "album": "Added on 19/05/21",
+        "url": "https://j.mp/3uzidrt",
+        "cover_art_url": "https://j.mp/3exLJIo"
     },
     {
-      "name": "18+ (Spanish Version)",
-      "artist": "Afro Bros ft. Ghetto Flow",
-      "album": "Mix 1",
-      "url": "https://drive.google.com/u/2/uc?id=1BjmWU8YFROLe4q5O5VtIBaD-7z3hzKQ5&export=download",
-      "cover_art_url": "https://bit.ly/3xV035n"
+        "name": "18 Plus",
+        "artist": "Afro Bros Feat. Finest Sno",
+        "album": "Added on 19/05/21",
+        "url": "https://j.mp/3hgolRA",
+        "cover_art_url": "https://j.mp/2RGfAFo"
     },
     {
-      "name": "Cloud 9 ft. Jeremih",
-      "artist": "Afrojack & Chico Rose",
-      "album": "Mix 1",
-      "url": "https://drive.google.com/u/2/uc?id=1EFcUduKdFw1B71B0D7bY_IQeMSRe92_k&export=download",
-      "cover_art_url": "https://bit.ly/3o2gfNv"
+        "name": "Cloud 9",
+        "artist": "Afrojack & Chico Rose Feat. Jeremih",
+        "album": "Added on 19/05/21",
+        "url": "https://j.mp/3bgMa7P",
+        "cover_art_url": "https://j.mp/3eDFV0d"
     },
     {
       "name": "Sober (feat. Dilan Muhammad)",
