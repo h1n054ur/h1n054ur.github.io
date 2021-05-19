@@ -222,7 +222,7 @@ Amplitude.init({
       "name": "Sober (feat. Dilan Muhammad)",
       "artist": "Akki & Not So Good",
       "album": "Mix 1",
-      "url": "https://drive.google.com/u/2/uc?id=1u2y_E4AVWqC6kjzaw7Cd4YXBsLiM-mbx&export=download",
+      "url": "https://tinyurl.com/4vmxxw47",
       "cover_art_url": "https://bit.ly/3h8XRRX"
     },
     {
